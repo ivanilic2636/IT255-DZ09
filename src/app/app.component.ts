@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  tittle = "Log in";
-  user = "Your username and password ";
+naslov = "Log in form";
+user = "User name";
+first = "First name";
+last = "Last name";
+pas = "Password";
+conf = "Confirm"
+e = "Email";
 }

@@ -1,32 +1,31 @@
-<head>
-<title>Registracija</title>
 
-</head>
 <body>
+
 <form name="frmRegistration" method="post" action="">
 <table border="0" width="500" align="center" class="demo-table">
+  <h1>{{naslov}}</h1>
 <tr>
-<td>User Name</td>
+<td>{{user}}</td>
 <td><input type="text" class="demoInputBox" name="userName" ></td>
 </tr>
 <tr>
-<td>First Name</td>
+<td>{{first}}</td>
 <td><input type="text" class="demoInputBox" name="firstName" ></td>
 </tr>
 <tr>
-<td>Last Name</td>
+<td>{{last}}</td>
 <td><input type="text" class="demoInputBox" name="lastName" ></td>
 </tr>
 <tr>
-<td>Password</td>
+<td>{{pas}}</td>
 <td><input type="password" class="demoInputBox" name="password" value=""></td>
 </tr>
 <tr>
-<td>Confirm Password</td>
+<td>{{conf + ' ' +pas}}</td>
 <td><input type="password" class="demoInputBox" name="confirm_password" value=""></td>
 </tr>
 <tr>
-<td>Email</td>
+<td>{{e}}</td>
 <td><input type="text" class="demoInputBox" name="userEmail" ></td>
 </tr>
 <tr>
